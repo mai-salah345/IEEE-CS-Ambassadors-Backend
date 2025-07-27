@@ -1,0 +1,16 @@
+What is a Database?
+A database is a place where we store data in an organized way so we can find and use it easily. 
+
+What is Normalization?
+Normalization means organizing the data to avoid repetition and keep it clean.
+
+1NF (First Normal Form):
+Make sure each field has one value only (no lists).
+✅ Good: Subject = "Math"
+❌ Bad: Subject = "Math, English"
+
+2NF (Second Normal Form):
+Be in 1NF + all non-key data depends on the full primary key (no partial dependency).
+
+3NF (Third Normal Form):
+Be in 2NF + non-key data shouldn't depend on other non-key data (no transitive dependency).
